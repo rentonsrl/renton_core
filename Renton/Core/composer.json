@@ -1,0 +1,29 @@
+{
+  "name": "renton/core",
+  "description": "Renton Core Extension",
+  "type": "magento2-module",
+  "version": "1.0.10",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~7.4.0"
+  },
+  "authors": [
+    {
+      "name": "Renton Technologies",
+      "email": "sales.rentonsrl@gmail.com",
+      "homepage": "https://renton-eu.com/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Renton\\Core\\": ""
+    }
+  }
+}
